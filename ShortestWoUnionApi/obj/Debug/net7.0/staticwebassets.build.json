@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "vOzLv6vYxQisS78DB/qiisnsH7f2n/trzLRfSuQhiSQ=",
+  "Source": "ShortestWoUnionApi",
+  "BasePath": "_content/ShortestWoUnionApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ShortestWoUnionApi\\wwwroot",
+      "Source": "ShortestWoUnionApi",
+      "ContentRoot": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoUnionApi\\wwwroot\\",
+      "BasePath": "_content/ShortestWoUnionApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoUnionApi\\wwwroot\\app.js",
+      "SourceId": "ShortestWoUnionApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoUnionApi\\wwwroot\\",
+      "BasePath": "_content/ShortestWoUnionApi",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoUnionApi\\wwwroot\\index.html",
+      "SourceId": "ShortestWoUnionApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoUnionApi\\wwwroot\\",
+      "BasePath": "_content/ShortestWoUnionApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

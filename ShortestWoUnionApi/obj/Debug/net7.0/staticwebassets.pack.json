@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoUnionApi\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoUnionApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ShortestWoUnionApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ShortestWoUnionApi.props",
+      "PackagePath": "build\\ShortestWoUnionApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ShortestWoUnionApi.props",
+      "PackagePath": "buildMultiTargeting\\ShortestWoUnionApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ShortestWoUnionApi.props",
+      "PackagePath": "buildTransitive\\ShortestWoUnionApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
