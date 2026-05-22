@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Shortest WO Path</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{font-family:Segoe UI,Arial;margin:20px}
+    label{display:block;margin-top:10px}
+    textarea,input,select{width:100%;padding:8px}
+    #result{white-space:pre-wrap;background:#f7f7f7;padding:10px;margin-top:10px}
+  </style>
+</head>
+<body>
+  <h1>Shortest WO Path</h1>
+  <form id="woForm">
+    <label>Mode
+      <select id="mode">
+        <option value="ids">Work Order IDs</option>
+        <option value="submitto" selected>SubmitTo Name</option>
+      </select>
+    </label>
+
+    <label id="woidsLabel" style="display:none">WO IDs (comma-separated)
+      <input id="woids" placeholder="161096,161760" value="161096,161760">
+    </label>
+
+    <label id="submittoLabel" >SubmitTo Name
+      <input id="submitto" placeholder="Mike" value="Mike">
+    </label>
+
+    <label>Starting address
+      <input id="starting" placeholder="93 Stony Circle, Santa Rosa, CA" value="93 Stony Circle, Santa Rosa, CA">
+    </label>
+
+    <button type="submit">Run</button>
+  </form>
+  <a id="gmaps_link"></a>
+  <div id="result"></div>
+
+  <script src="/shortestwopath/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>UnionFind UI</title>
+</head>
+<body>
+  <h1>UnionFind - Top K Connected Components</h1>
+  <label>Asset type: <input id="asset" value="wmain" /></label>
+  <label>K: <input id="k" type="number" value="5" /></label>
+  <label>Load file: <input id="file" type="file" accept=".json,.txt" /></label>
+  <label><input id="autoRun" type="checkbox" /> Auto run on file load</label>
+  <br/><br/>
+  <textarea id="graph" rows="20" cols="120" placeholder='Paste adjacency-list JSON here'></textarea>
+  <br/>
+  <button id="run">Run</button>
+  <div id="result"></div>
+  <script src="/assetsdownstreamimpact/app.js"></script>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; }
+    .human-lines pre { background:#f7f7f7; padding:10px; border-radius:4px; white-space:pre-wrap; }
+    .components { margin-top:12px; display:flex; gap:12px; flex-wrap:wrap; }
+    .component-card { border:1px solid #ddd; padding:10px; border-radius:6px; width:260px; background:#fff; box-shadow:0 1px 2px rgba(0,0,0,0.03);} 
+    .component-title { font-weight:700; margin-bottom:6px; }
+    .component-members { margin:0; padding-left:18px; }
+    .stderr pre { background:#fff3f3; padding:10px; border-radius:4px; color:#800; white-space:pre-wrap; }
+  </style>
+</body>
+</html>
