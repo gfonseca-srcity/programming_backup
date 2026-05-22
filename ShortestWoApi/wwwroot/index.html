@@ -33,6 +33,13 @@
       <input id="starting" placeholder="93 Stony Circle, Santa Rosa, CA" value="93 Stony Circle, Santa Rosa, CA">
     </label>
 
+    <label>Algorithm
+      <select id="algorithm">
+        <option value="osmnx" selected>OSMnx + brute-force (default)</option>
+        <option value="tsp">TSP + 2-opt</option>
+      </select>
+    </label>
+
     <button type="submit">Run</button>
   </form>
   <a id="gmaps_link"></a>
