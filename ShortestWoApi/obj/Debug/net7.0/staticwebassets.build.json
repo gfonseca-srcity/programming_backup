@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "foERVzZRqG9Z27S9203+k/TNJF+aAzT+P7dPLa+qrgw=",
+  "Source": "ShortestWoApi",
+  "BasePath": "_content/ShortestWoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ShortestWoApi\\wwwroot",
+      "Source": "ShortestWoApi",
+      "ContentRoot": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoApi\\wwwroot\\",
+      "BasePath": "_content/ShortestWoApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoApi\\wwwroot\\app.js",
+      "SourceId": "ShortestWoApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoApi\\wwwroot\\",
+      "BasePath": "_content/ShortestWoApi",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoApi\\wwwroot\\index.html",
+      "SourceId": "ShortestWoApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\E08802\\Desktop\\programming_backup\\ShortestWoApi\\wwwroot\\",
+      "BasePath": "_content/ShortestWoApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
